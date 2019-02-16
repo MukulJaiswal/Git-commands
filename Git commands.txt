@@ -1,0 +1,32 @@
+>>git init  //command to initialise a git
+
+>>echo "# Test" >> README.md //this will make a README.md file
+and write Test into it.
+
+
+>>git add README.md //It will upload README.md file locally to git.
+
+>>git add . //It will upload all files to git locally.
+
+>>git commit -m "MY MESSAGE HERE"  // It will commit all changes locally to git with a message
+
+
+>>git push origin master  //To push your committed changes from your local repository to your remote repository:
+
+
+-----------------------------------------------------------------------------------------------
+For new Repository
+----------------------------------------------------------------------------------------------
+1.git init
+2.echo "#test" >> README.md
+3.git add .
+4.git commit -m "First commit"
+5.git remote add origin https://github.com/MukulJaiswal/Test.git
+6.git push -u origin master
+
+-----------------------------------------------------------------------------------------------
+For Existing Repository
+----------------------------------------------------------------------------------------------
+1. git add .
+2. git commit -m "MY MESSAGE HERE"
+3. git push origin master
